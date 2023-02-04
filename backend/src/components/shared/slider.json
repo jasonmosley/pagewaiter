@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_sliders",
+  "info": {
+    "displayName": "Image Slider",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "displayName": "Slider Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.slider-card"
+    }
+  }
+}
