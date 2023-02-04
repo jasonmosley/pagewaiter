@@ -1,0 +1,8 @@
+{
+  "name": "pagewaiter",
+  "version": "1.0.0",
+  "description": "The Frontend and Backend for Pagewaiter.com",
+  "main": "index.js",
+  "author": "Jason Mosley <jmosley@pagewaiter.com>",
+  "license": "MIT"
+}
