@@ -4,5 +4,11 @@
   "description": "The Frontend and Backend for Pagewaiter.com",
   "main": "index.js",
   "author": "Jason Mosley <jmosley@pagewaiter.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start-frontend" : "yarn --cwd './frontend' install && yarn --cwd './frontend' run dev",
+    "build-frontend" : "yarn --cwd './frontend' install && yarn --cwd './frontend' run build",
+    "start-backend" : "yarn --cwd './backend' install && yarn --cwd './backend' run develop",
+    "build-backend" : "yarn --cwd './backend' install && yarn --cwd './backend' run build"
+  }
 }
